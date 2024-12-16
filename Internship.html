@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	   <title> INTERNSHIP </title>
+	   <meta charset = "UTF-8">
+	   <meta name = "Description" content = "Information of html document">
+	   <meta name = "Keyword" content = "Used keywordin document">
+	   <meta name = "Author" content = "Margaret Atwood">
+	   <meta name = "Viewport" content = "width = width-device,initial-scale=0">
+	   <style>
+	     h6{
+		   color:red;
+		 }
+	     .user{                 <!--.id name {-->              <!-- *{  -->
+	       color:violet;        <!-- color:colourname; -->        <!-- color:colourname;-->
+	     }                      <!-- } -->                     <!-- } -->
+		 input[type="number"]{
+		      color:purple;
+		}
+        body{ 
+		  background-color:slateblue;
+		  background-image : url("assets/images/leaf.jpg"); <!--"C:\Users\N . Visalakshi\Desktop\Full stack development\assets\images\bgimg.jpg"-->
+		  background-repeat:no-repeat;
+		  background-position:centre;
+		  background-attachemnt:fixed;
+		  background-size-cover;
+		}
+		#form{
+		   border-style:double;
+		   border-color:dodgerBlue;
+		   border-width:10px;
+		   border-radius:5px;
+		   padding:10px;<!--__px __px; top bottom and right left--><!--__px __px __px __px; trvels through top right bottom left -->
+		   margin:15px;
+		}
+		.user{
+		    position:fixed;
+			<center>
+			place:50px;
+			</center>
+		}
+       </style>	   
+	</head>
+	<body>
+	    <div style = "color : blue ">
+		       <h1> Full stack development</h1>
+		</div>
+		<h2 class = "user"> Web development </h2>
+	    <h3 class = "User"> Web page </h3>
+		<h4> Static and dynamic </h4>
+		<h5> Frontend </h5>
+		<h6> Html structure </h6> <!--span style = "color : red "> text  </span-->
+		<p> We learnt in <b> DAY 1 </b> <i> Introduction to web development </i> with 
+		<ins> Frontend </ins> but <mark> using all tags </mark> namely <small> attributes, division, span and formatting </small> </p>
+		<p> Instructed to <sup> work </sup> in <sub> Computer lab </sub> </p>
+		<p> Class started <del> lately </del>
+	    <center>
+	    <h1> List,table, entity and iframe </h1>
+		<hr/>
+		</center>
+		<p id="data"> List - collection of specific order </p>
+        <p> Types of List </p>
+        <ol>
+		  <li> Order list </li>
+		  <li> Unorder list </li>
+		  <li> Description list </li>
+		</ol>		
+		<ul type = "circle">
+		    <li>Order list - It consist of collection items with order as <span style = "color : violet">numbers or alphabets </span> </li>
+			<li>Unorder list - It consist of collection items with order as <span style = "color : violet">disk,circle,square and none </span> </li>
+			<li>Order list - It consist of items as <span style = "color : violet"> question and answer format  </span> </li>
+		</ul>
+		<dl>
+		   <dt>How to create a attendance sheet</dt>
+		   <dd>Use a table and the format is given below </dd>
+		</dl>
+		<h2>    ATTENDANCE      </h2>
+		<table border =4 >
+		<th>S.No</th>
+		<th>Roll number</th>
+		<th>Name</th>
+		<th>Department</th>
+		<tr>
+		  <td>1</td>
+		  <td>23ECE003</td>
+	      <td>Aishu</td>
+		  <td rowspan = 8>ECE</td>
+		</tr>
+		<tr>
+		  <td>2</td>
+		  <td>23ECE006</td>
+	      <td>Archana</td>
+		</tr>
+		<tr>
+		  <td>3</td>
+		  <td>23ECE007</td>
+	      <td>Bhuvana</td>
+		</tr>
+		<tr>
+		  <td>4</td>
+		  <td>23ECE015</td>
+	      <td>Illakiya</td>
+		</tr>
+		<tr>
+		  <td>5</td>
+		  <td>23ECE016</td>
+	      <td>Ishu</td>
+		</tr>
+		<tr>
+		  <td>6</td>
+		  <td>23ECE032</td>
+	      <td>Vishali</td>
+		</tr>
+		<tr>
+		  <td>7</td>
+		  <td>23ECE042</td>
+	      <td>Mohammed</td>
+		</tr>
+		<tr>
+		  <td>8</td>
+		  <td>23ECE054</td>
+	      <td>Selva</td>
+		</tr>
+	    </table>
+		<h1> &quot </h1>
+		<h1> &#169 </h1>
+		<h1> &#128508 </h1>
+		<iframe src = "https://www.flipkart.com/" width = 500px height = 750px> </iframe>
+		<p> Hyperlink - link of things </p>
+		<a href = " ">Register</a> <!--doesn't refresh-->
+		<a href = "#">Sign in </a> <!--refresh (#)-->
+		<a href = "https://open.spotify.com/">Login </a>
+		<a href = "#">Move</a>
+		<a href = "# data">Move </a> <!--data name give the content id selector-->
+		<a href = " index day 1">Document</a>
+		<img src = "assets/images/schooltheme.jpg" width = 300px height = 200px /> <!--./name of image.jpg-->
+		<h1 id = "form">APPLICATION FORM </h1>
+		<form>		<!--form action = " "-->
+		   <input type = "button" value = "Register now" /><br/>
+		   Name<input type = "text" placeholder = "Enter the name" min =0 max = 50 name = "user"/><br/><!--text means all will be applicable -->
+		   Date of birth <input type = "date" /><br/>
+		   Gender <input type = "radio" name = "gender"/> <label for="">male</label> 
+		   <input type = "radio" name = "gender" /> <label for="">female</label><br/>
+		   Phone number <input type = "number" placeholder = "Enter the number" max= 10 /><br/>
+		   Aadhaar number <input type = "number" placeholder = "Enter the number" max = 12 /><br/>
+		   Address<input type = "text" placeholder = "Enter the permanent address" />
+		   District <select>
+		       <option value = 1>Ariyalur</option>
+			   <option value = 2>Kanchipuram</option>
+			   <option value = 3>Chennai</option>
+			   <option value = 4>Coimbatore</option>
+			   <option value = 5>Dharmapurai</option>
+			   <option value = 6>Erode</option>
+			   <option value = 7>Dindigul</option>
+			   <option value = 8>Madurai</option>
+			   <option value = 9>Karur</option>
+			   <option value = 10>Theni</option>
+		   </select>
+		   State<select>
+		       <option value = 1>Tamil nadu</option>
+			   <option value = 2>Kerala</option>
+			   <option value = 3>Karnataka</option>
+		   </select><br/>
+		   Language <input type = "checkbox" />
+		      <label for = "">Tamil</label>
+			  <input type = "checkbox" />
+			  <label for = "">English</label>
+			  <input type = "checkbox" />
+			  <label for = "">Hindi</label>
+			  <input type = "checkbox" />
+			  <label for = "">Telugu</label> </br>
+		<input type = "Submit" /> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+		<input type = "Reset" /><br/>		
+        </form>	
+        <p>CSS - Cascading Style Sheet</p><br/>
+        <p>Types of CSS</p>	
+        <ul type = "square">
+		  <li> Inline CSS - Style inside the html document </li>
+		  <li> Internal CSS - Style inside html using a style tag inside head tag </li>
+		  <li> External CSS - Styling the webpage by including a separate file </li>
+		</ul>
+        <!-- selector { -->	<!-- format of internal css -->
+             <!-- property :value; -->
+        <!-- } -->	
+        <ol type = "I">
+		    <li>Element - selecting each tag </li>
+			<li>Class and Id - selecting particular tag </li>
+			<li>Grouping - styling for more than one tag </li>
+			<li>Universal - Styling entire tag </li>
+			<li>Attribute - used inside a property:value pair tag </li>
+			<li>Child and decent - style inside a nested tag </li>
+		</ol>
+        		
+	</body>	
+</html>
